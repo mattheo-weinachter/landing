@@ -1,0 +1,20 @@
+.footer {
+	background-color: #0F2552;
+	color: #ffffff;
+	padding: 50px 0px;
+}
+
+.footer .email {
+	color: #FFE18C;
+	font-weight: bold;
+}
+
+.footer a {
+	color: #ffffff;
+	font-family: 'Nunito', sans-serif;
+	transition: color 0.3s ease;
+}
+
+.footer a:hover {
+	color: #FFE18C;
+}

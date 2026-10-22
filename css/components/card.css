@@ -1,0 +1,49 @@
+/* The grid: the parent owns the layout */
+.cards {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 24px;
+}
+
+/* One card: image on the left, text on the right */
+.card {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px;
+	background-color: #ffffff;
+	border-radius: 8px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+	width: 150px;
+	border-radius: 6px;
+}
+
+.card div {
+	flex-grow: 1;
+	padding-left: 20px;
+}
+
+.card h3 {
+	margin: 0px;
+	font-size: 22px;
+}
+
+.card p {
+	margin: 8px 0px 0px 0px;
+	font-size: 15px;
+}
+
+@media (max-width: 720px) {
+	.cards {
+		grid-template-columns: 1fr;
+	}
+}
+
+@media (max-width: 540px) {
+	.card img {
+		width: 90px;
+	}
+}

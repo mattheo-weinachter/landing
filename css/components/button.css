@@ -1,0 +1,41 @@
+/* Base: the shape shared by every button */
+.btn {
+	display: inline-block;
+	padding: 14px 28px;
+	border-radius: 6px;
+	border: 2px solid transparent;
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	cursor: pointer;
+	margin: 5px;
+	transition: opacity 0.3s ease;
+}
+
+.btn:hover {
+	opacity: 0.85;
+}
+
+/* Variants: only what makes each one different */
+.btn-primary {
+	background-color: #1B418D;
+	color: #ffffff;
+}
+
+.btn-yellow {
+	background-color: #FFE18C;
+	color: #1B418D;
+}
+
+.btn-small {
+	padding: 4px 14px;
+	font-size: 14px;
+	margin-left: 10px;
+}
+
+.btn-white {
+	background-color: transparent;
+	color: #ffffff;
+	border-color: #ffffff;
+}
