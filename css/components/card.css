@@ -1,11 +1,11 @@
-/* The grid: the parent owns the layout */
+
 .cards {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	gap: 24px;
 }
 
-/* One card: image on the left, text on the right */
+
 .card {
 	display: flex;
 	align-items: center;
