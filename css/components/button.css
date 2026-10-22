@@ -1,4 +1,4 @@
-/* Base: the shape shared by every button */
+
 .btn {
 	display: inline-block;
 	padding: 14px 28px;
@@ -17,7 +17,7 @@
 	opacity: 0.85;
 }
 
-/* Variants: only what makes each one different */
+
 .btn-primary {
 	background-color: #1B418D;
 	color: #ffffff;
