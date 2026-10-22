@@ -1,7 +1,7 @@
-/* Importing Google fonts */
+
 @import url("https://fonts.googleapis.com/css?family=Lora:400,700|Nunito:400,700,800");
 
-/* Importing component files */
+
 @import url("components/container.css");
 @import url("components/button.css");
 @import url("components/avatar.css");
@@ -10,15 +10,15 @@
 @import url("components/section.css");
 @import url("components/footer.css");
 
-/* Colors of Rêve d'Enfance
-   Blue (logo)   -> #1B418D
-   Yellow (logo) -> #FFE18C
-   Night blue    -> #0F2552
+/* Couleurs RDE au cas où
+   Blue logo   -> #1B418D
+   Yellow logo -> #FFE18C
+   Night blue (fond)   -> #0F2552
    Cream         -> #FFF9EC
    White         -> #ffffff
 */
 
-/* General style rules for fonts and colors */
+
 body {
 	font-family: 'Lora', serif;
 	font-size: 18px;
