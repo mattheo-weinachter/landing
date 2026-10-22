@@ -1,8 +1,7 @@
 console.log("behavior.js is running");
 
-// Select > Listen > Run > Update
 
-// Listener 1 — write into the page
+
 const shoutButton = document.getElementById("say-hello");
 const title = document.querySelector(".page-title");
 
@@ -12,7 +11,7 @@ function sayHello() {
 
 shoutButton.addEventListener("click", sayHello);
 
-// Listener 2 — read from the page, then use the clipboard
+
 const email = document.querySelector(".email");
 const copyButton = document.querySelector(".copy-email");
 
